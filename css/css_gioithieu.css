@@ -1,0 +1,155 @@
+p {
+    font-size: 15px;
+}
+.main-title {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main__content-title {
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #d44700;
+}
+
+.main__content-sub-title {
+    color: #a22531;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.main__content .main__content-decs {
+    margin: 20px 0px;
+    line-height: 1.5;
+}
+
+.main__content-video {
+    display: flex;
+    justify-content: center;
+}
+
+.main__content-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.main__content-image {
+    object-fit: contain;
+    width: 1000px;
+}
+
+.main__content-img-decs {
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+/* comments */
+
+.container__main-comment {
+    margin: 60px 0px 20px;
+}
+
+.container__comment-option {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.container__comment-content {
+    margin: 20px 0px;
+}
+
+.comment__content-user {
+    display: flex;
+}
+
+.input__comment-user {
+    margin-left: 10px;
+    width: 100%;
+    padding: 15px 10px;
+    height: 55px;
+}
+
+.avatar__user {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.input__user {
+    width: 1130px;
+    
+}
+
+.btn-comment {
+    width: 1130px;
+    background-color: #ccc;
+    margin-left: 10px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-comment button {
+    margin: 0px 10px;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-comment button:hover {
+    background-color: #000;
+}
+
+.member__comment {
+    margin: 20px 0px;
+    display: flex;
+}
+
+.member__info {
+    margin-left: 10px;
+}
+
+.member__info-name {
+    color: #385898;
+    font-weight: bold;
+    margin: 0px 0px 5px;
+}
+
+.member__info-comment {
+    font-size: 13px;
+}
+
+.list__member-select {
+    display: flex;
+}
+
+.list__member-select li {
+    margin: 7px 10px 0px 0px;
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.list__member-select li:hover {
+    text-decoration: underline;
+}
+
+.list__member-select li:last-child {
+    color: #6b6767;
+    font-size: 14px;
+}
+
+.member__comment-rep {
+    display: flex;
+    margin: 0px 0px 0px 60px;
+}

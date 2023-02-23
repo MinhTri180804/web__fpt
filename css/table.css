@@ -1,0 +1,78 @@
+.container__table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 713px;
+    height: 256px;
+    
+}
+
+.title__table {
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+table caption {
+    font-size: 20px;
+}
+
+thead tr:first-child {
+    background-color: rgb(235, 103, 15);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(97, 174, 196);
+}
+
+tfoot tr :last-child {
+    background-color: rgb(218, 52, 124);
+}
+
+main {
+    margin: 20px 0px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.list__lab {
+    display: flex;
+}
+
+.content-table {
+    width: 300px;
+    overflow: hidden;
+}
+
+td.content-table .list__content-text {
+    width: 100%;
+    min-height: 200px;
+    margin: 10px 0px;
+}
+
+.list__lab-item {
+    margin: 0px 10px;
+}
+
+.title-table {
+    text-align: center;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+td.content-table .list__content-text li {
+    margin: 5px 0px;
+}
+
+td.time-table {
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+}

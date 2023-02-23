@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+
+    <style>
+
+
+        form {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .container__form {
+            display: flex;
+            background-color: #fff;
+            align-items: center;
+            justify-content: space-around;
+            padding: 30px 50px;
+            border-radius: 10px;
+        }
+
+        .banner__form-img {
+            width: 256px;
+            height: 256px;
+            object-fit: contain;
+            box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+            border-radius: 50%;
+
+        }
+
+        .form__user {
+            max-width: 250px;
+            margin-left: 100px;
+        }
+
+        .form__user-header h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .form__body-name {
+            margin: 10px 0px;
+        }
+
+        label.form__body input {
+            margin: 10px 0px;
+            width: 100%;
+            height: 100%;
+            border: none;
+            background-color: #EEEEEE;
+            padding: 10px 10px;
+            text-transform: capitalize;
+            border-radius: 10px;
+        }
+
+        .select__user {
+            display: flex;
+            justify-content: space-between;
+            margin: 7px 0px;
+        }
+
+        .select__user a {
+            color: #00337C;
+            text-decoration: underline;
+            ;
+            margin: 5px 0px;
+            font-size: 13px;
+        }
+
+        .select__user a:hover {
+            color: cadetblue;
+        }
+
+        .btn__form-user {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #03C988;
+            border-radius: 15px;
+            border: none;
+            width: 100%;
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 15px;
+            margin: 5px 0px;
+            transition: background-color 0.3s linear;
+        }
+
+        .btn__form-user:hover {
+            background-color: cadetblue;
+        }
+
+        /*  */
+    </style>
+</head>
+
+<body>
+    <form class="form__register" action="">
+        <div class="container__form">
+            <div class="banner__form">
+                <img src="/img/icon-256x256.png" alt="" class="banner__form-img">
+            </div>
+
+            <div class="form__user">
+                <div class="form__user-header">
+                    <h3 class="header__form-title text-capitalize">
+                        đăng nhập
+                    </h3>
+                </div>
+
+                <label class="form__body form__register" for="">
+                    <input type="text" name="username" id="username__register" placeholder="tên đăng nhập">
+                </label>
+
+                <label class="form__body form__register" for="">
+                    <input type="password" name="password" id="password__register" placeholder="mật khẩu">
+                </label>
+
+                <div class="select__user">
+                    <a href="#" class="select__user-content text-capitalize">quên tên tài khoản</a>
+                    <a href="#" class="select__user-content text-capitalize">quên mật khẩu</a>
+                </div>
+
+
+                <div class="btn__form">
+                    <button class="btn__form-user">
+                        đăng nhập
+                    </button>
+                </div>
+
+                <div class="btn__form">
+                    <button class="btn__form-user">
+                        <a href="/home.html">quay lại</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
